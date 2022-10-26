@@ -1,0 +1,220 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
+
+h1 {
+  text-align: center;
+  font-family:  sans-serif;
+  font-family: Lato;
+  font-weight: 400;
+ 
+ 
+}
+body {
+  font-family: Lato,sans-serif;
+  font-weight: 300;
+  color: darkgoldenrod;
+}
+
+/* Headings and logo */
+
+h1 , h2{
+  font-family: Lato;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  color:darkblue;
+}
+#logo
+{
+  float: left;
+  font-size: 280%;
+}
+#menu li {
+  letter-spacing: 4px;
+  float: right;
+  list-style-type: none;
+  margin-right: 30px;
+
+}
+#menu a{
+text-decoration: none;
+color: inherit;
+}
+
+#menu , #logo{
+  line-height: 75px;
+
+}
+#menu a:hover{
+
+  border-bottom: 1px solid rebeccapurple;
+}
+#inspiration-image{
+  height: 800px;
+  width: 100%;
+  background: url('http://i.huffpost.com/gen/1405484/images/o-MEDITATION-facebook.jpg') no repeat cornflowerblue center center;
+  animation-name: inspiration-image-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+#inspiration-image-outer{
+  height: 800px;
+  width: 100%;
+  overflow: hidden;
+
+}
+
+
+
+/* level for inspiration-image */
+
+
+@keyframes inspiration-image-zoom {
+  from{
+      transform: scale(1);
+  }
+  to{
+      transform: scale(1.1);
+  }
+}
+
+#cover-text-inspiration-image h2 {
+  font-size: 130%;
+  font-family: Lato, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+
+  width: 400px;
+  height: 300px;
+
+  padding-top: 50px;
+  padding-left: 30px;
+  color: darkorange;
+
+  font-size: xx-large;
+
+
+  bottom: 80px;
+  right: 150px;
+
+  position: absolute;
+}
+hr{
+    border-top: 1px solid burlywood;
+    width: 100%;
+    margin: 5px 0;
+}
+#left-about {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+}
+#right-about {
+  padding-top:10%;
+  width:33%;
+  float:right;
+  background-color: lightcyan;
+
+}
+#center-about {
+ 
+  width:33%;
+ margin: 0 auto;
+
+ 
+}
+#section-two-firstpage{
+  text-align: center;
+  margin: 20px;
+  font-size: 280%;
+}
+.left-about-feel-free
+{
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+.right-about-health-benefit 
+{
+    width: 60%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+#blog-image{
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border-width: 1px;
+    border-radius: 50%;
+    margin: 0 auto;
+ 
+
+}
+#online-yoga-classes{
+   background: url('https://st.depositphotos.com/1877361/1899/v/950/depositphotos_18995555-stock-illustration-yoga-logo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+#online-yoga-classes div {
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, .6);
+    width: 30%;
+    height: 400px;
+    float: left;
+    padding: 30px 0 0 20px;
+    text-align: center;
+    border: 3px solid white;
+    box-sizing: border-box;
+}
+
+footer {
+  height: 150px;
+}
+
+.social-networks {
+  text-align: center;
+}
+
+.social-networks > li {
+  display: inline;
+}
+
+.social-networks i {
+  font-size: 160%;
+  margin: 1%;
+  padding: 5%;
+  
+}
+
+#photos {
+  clear: both;
+  line-height: 0;
+  column-count: 2;
+  column-gap: 0;
+
+}
+#love-yoga{
+
+  margin: 0 auto;
+}
+hr {
+  display: none;
+}
+/* For medium screen sizes from 950px wide and down */
+@media screen and (max-width: 950px) {
+
+  #menu {
+      clear: left;
+      float: left;
+      margin-left: 30px;
+      margin-bottom: 20px;
+      line-height: 25px;
+  }
+}
